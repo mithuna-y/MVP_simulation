@@ -27,12 +27,10 @@ for i in range(n):
     print(f"phase is {phase}, frequency is {frequency}, and initial value is {plane_wave(frequency, phase)(0, t0)}")
     y_segment = plane_wave(frequency, phase)(x_segment, t0)
     plt.plot(x_segment, y_segment)
-
 plt.xlabel('x')
 plt.ylabel('y')
 
-
-plt.title('Plot of multiple functions')
+plt.title('Light travelling through n layers of electrons- kinda')
 
 plt.show()
 
